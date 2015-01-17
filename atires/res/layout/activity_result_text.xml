@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TextView
+	    android:id="@+id/ocr_ok_result"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/return_button"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerVertical="true"
+	    android:background="#555555"
+	    android:textColor="#FFFFFF"
+	    android:textSize="25sp" />
+
+	<Button
+        android:id="@+id/return_button" 
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_text_return" 
+        android:onClick="onBtnReturn" />
+</RelativeLayout>

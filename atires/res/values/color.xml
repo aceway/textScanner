@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>    
+<drawable name="dkgray">#80808FF0</drawable>    
+<drawable name="yello">#F8F8FF00</drawable>    
+<drawable name="white">#FFFFFF</drawable>    
+<drawable name="darkgray">#938192</drawable>    
+<drawable name="lightgreen">#7cd12e</drawable>    
+<drawable name="black">#ff000000</drawable>    
+<drawable name="blue">#ff0000ff</drawable>    
+<drawable name="cyan">#ff00ffff</drawable>    
+<drawable name="gray">#ff888888</drawable>    
+<drawable name="green">#ff00ff00</drawable>    
+<drawable name="ltgray">#ffcccccc</drawable>    
+<drawable name="magenta">#ffff00ff</drawable>    
+<drawable name="red">#ffff0000</drawable>    
+<drawable name="transparent">#00000000</drawable>    
+<drawable name="yellow">#ffffff00</drawable>  
+</resources> 
