@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tires" >
+    <FrameLayout
+        android:id="@+id/myFramelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <SurfaceView
+            android:id="@+id/preview_cam"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:visibility="visible" />
+        <com.aw.scaner.MuskSurfaceDraw
+            android:id="@+id/mDraw"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>	
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="100dip"
+    	android:layout_alignParentBottom="true"
+    	android:gravity="center_vertical"
+    	android:background="#00000000">
+    	<Button 
+    	    android:id="@+id/btn_scan_focus"
+    	    android:layout_width="60dip"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentLeft="true"
+    	    android:text="@string/vin_scan_focus"
+    	    android:background="#FFFFFF"
+    	    android:onClick="onBtnScanFocus"/>
+    	<Button
+    	    android:id="@+id/btn_scan_digit" 
+    	    android:layout_width="60dip"
+    	    android:layout_height="wrap_content"
+    	    android:layout_toLeftOf="@+id/btn_scan_chi_sim"
+    	    android:layout_marginRight="3dip"
+    	    android:text="@string/vin_scan_digit"
+    	    android:background="#FFFFFF"
+    	    android:onClick="onBtnScanDigit"/>
+    	<!--View android:id="@+id/center_holder"
+        	android:layout_width="0dp"
+        	android:layout_height="0dp" 
+        	android:layout_centerHorizontal="true"/-->
+    	<Button
+    	    android:id="@+id/btn_scan_chi_sim" 
+    	    android:layout_width="60dip"
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerHorizontal="true"
+    	    android:text="@string/vin_scan_chi_sim"
+    	    android:background="#FFFFFF"
+    	    android:onClick="onBtnScanChiSim"/>
+    	<Button
+    	    android:id="@+id/btn_scan_en"
+    	    android:layout_width="60dip"
+    	    android:layout_height="wrap_content"
+    	    android:layout_toRightOf="@+id/btn_scan_chi_sim"
+    	    android:layout_marginLeft="3dip"
+    	    android:text="@string/vin_scan_en"
+    	    android:background="#FFFFFF"
+    	    android:onClick="onBtnScanEn"/>
+    	<Button
+    	    android:id="@+id/btn_scan_vin"
+    	    android:layout_width="60dip"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentRight="true"
+    	    android:text="@string/vin_scan_vin"
+    	    android:background="#FFFFFF"
+    	    android:onClick="onBtnScanVIN"/>
+	</RelativeLayout>
+</RelativeLayout>

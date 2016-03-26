@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">文字识别器</string>
+    <string name="action_settings">Settings</string>
+    <string name="know">知识</string>
+    <string name="replace">换胎</string>
+    <string name="share">分享</string>
+    <string name="vin_hint">输入VIN:</string>
+    <string name="vin_input"></string>
+    <string name="vin_desc">输入/扫描汽车识别代号(VIN)</string>
+    <string name="vin_scan_desc">扫描汽车识别代号(VIN)</string>
+    <string name="vin_input_query">查    询</string>
+    <string name="vin_scan">文字识别器</string>
+    <string name="vin_scan_focus">对    焦</string>
+    <string name="vin_scan_digit">数    字</string>
+    <string name="vin_scan_chi_sim">中    文</string>
+    <string name="vin_scan_en">英    文</string>
+    <string name="vin_scan_vin"> VIN </string>
+    <string name="cam_shutter_tips">扫描中. . .</string>
+    <string name="ocr_vin_tips">识别中. . .</string>
+    <string name="ocr_finish_tips">识别完成 .</string>
+    <string name="ocr_ok_result">识别结果.</string>
+    <string name="ocr_failed">识别失败，未能识别出文字 .</string>
+    <string name="test_pic_file">test_ocr.jpg</string>
+    <string name="test_pic_file1">test_ocr_.jpg</string>
+    <string name="default_test_pic_tips">默认读取文件test_ocr.jpg识别VIN信息。</string>
+    <string name="vin_format_error_tips">VIN必须由字母和数字组成,且长度为17。</string>
+    <string name="btn_text_return">返回</string>
+    <string name="vin_req_code">1000</string>
+    <string name="vin_ret_code">1001</string>
+</resources>
